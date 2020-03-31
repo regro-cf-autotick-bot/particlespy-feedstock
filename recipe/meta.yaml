@@ -1,18 +1,18 @@
 {% set name = "particlespy" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 7be52b64f321cc47cac83d522030fe8b50f5556f553486ae6903aee20faff46e
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 263505a4b63648513416534033c599a4f8bf326daa9774bd868f20291e31d5ac
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   home: https://github.com/ePSIC-DLS/ParticleSpy
   license: GPL-3.0
   license_file: LICENSE
-  summary: "A package to perform particle segmentation and analysis"
+  summary: A package to perform particle segmentation and analysis
   doc_url: https://epsic-dls.github.io/ParticleSpy/index.html
 
 extra:
