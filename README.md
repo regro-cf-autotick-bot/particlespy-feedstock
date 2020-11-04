@@ -5,11 +5,11 @@ Home: https://github.com/ePSIC-DLS/ParticleSpy
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/particlespy-feedstock/blob/master/LICENSE.txt)
 
 Summary: A package to perform particle segmentation and analysis
 
-
+Documentation: https://epsic-dls.github.io/ParticleSpy/index.html
 
 Current build status
 ====================
