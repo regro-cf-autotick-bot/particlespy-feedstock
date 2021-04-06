@@ -117,4 +117,4 @@ Feedstock Maintainers
 =====================
 
 * [@tschoonj](https://github.com/tschoonj/)
-* [@TomSlater](https://github.com/TomSlater/)
+
