@@ -24,6 +24,7 @@ requirements:
     - pyqt
     - python >=3
     - scikit-image >=0.15
+    - trackpy
 
 test:
   imports:
@@ -39,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - tschoonj
+    - TomSlater
