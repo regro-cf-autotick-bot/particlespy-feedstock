@@ -28,14 +28,14 @@ requirements:
 
 test:
   imports:
-    - ParticleSpy
+    - particlespy
 
 about:
-  home: https://github.com/ePSIC-DLS/ParticleSpy
+  home: https://github.com/ePSIC-DLS/particlespy
   license: GPL-3.0
   license_file: LICENSE
   summary: A package to perform particle segmentation and analysis
-  doc_url: https://epsic-dls.github.io/ParticleSpy/index.html
+  doc_url: https://epsic-dls.github.io/particlespy/index.html
 
 extra:
   recipe-maintainers:
